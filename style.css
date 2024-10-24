@@ -1,0 +1,35 @@
+main{
+    width: 800px;
+    margin: 0 auto;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    border-bottom: 1px solid green;
+}
+
+nav ul li{
+    padding: .5rem;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+nav li.active{
+    background-color: darkgoldenrod;
+    color: whitesmoke;
+}
