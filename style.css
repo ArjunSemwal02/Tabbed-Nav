@@ -33,3 +33,7 @@ nav li.active{
     background-color: darkgoldenrod;
     color: whitesmoke;
 }
+
+.hidden{
+    display: none;
+}
